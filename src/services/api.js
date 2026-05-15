@@ -1,6 +1,6 @@
 // src/services/api.js
 //const BASE = '/api'
-const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api'
+const BASE = import.meta.env.VITE_API_URL || 'http://localhost:3000/api'
 
 function getToken() {
   return localStorage.getItem('ac_token')
